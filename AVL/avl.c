@@ -113,7 +113,7 @@ AVL avl_insert(AVL *t, int key)
     *t = avl_balance(&(*t));
     return *t;
 }
-
+ 
 AVL avl_delete(AVL *t, int key) {
     if (*t == NULL) 
         return NULL;
