@@ -19,14 +19,17 @@ int main()
     escreveArv(arv);
 
     printf("------------------------------\n");
-    remover(10, &arv);
-    remover(20, &arv);
-    remover(21, &arv);
-    remover(8, &arv);
-    remover(13, &arv);
-    remover(49, &arv);
-    remover(30, &arv);
-    remover(33, &arv);
+    //remover(10, &arv);
+    //remover(20, &arv);
+    //remover(21, &arv);
+    ////remover(8, &arv);
+    ////remover(13, &arv);
+    //remover(49, &arv);
+    //remover(30, &arv);
+    //remover(33, &arv);
+
+    printf("bal: %d\n", arv->bal);
+    printf("bal: %d\n", arv->esq->bal);
 
     freeAVL(arv);
 
